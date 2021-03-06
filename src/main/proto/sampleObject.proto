@@ -1,0 +1,6 @@
+syntax="proto3";
+package example.samples;
+option java_package="com.example.samples";
+message SampleObject{
+  string name=1;
+}

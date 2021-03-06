@@ -1,0 +1,16 @@
+syntax="proto3";
+package example.samples;
+option java_package="com.example.samples";
+option java_multiple_files=true;
+
+message SampleObject{
+  string name=1;
+  string family=2;
+  double wage=3;
+  int32 age=4;
+  repeated SampleObject2 sampleObject2s=5;
+}
+
+message SampleObject2{
+  string address=1;
+}
